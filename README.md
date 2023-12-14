@@ -1,1 +1,1 @@
-# samples
+# Samples for HTML and CSS basics 
