@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Overlay on a Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css/common.css" />
+    <link rel="stylesheet" href="./styles.css/04-overlay.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <a href="./index.html"><= Back to contents</a>
+      <h2 class="header-title">Overlay on a Card</h2>
+    </header>
+    <main>
+      <article class="product">
+        <div class="product-thumb">
+          <img src="./images/apples.jpg" alt="Apples" />
+
+          <div class="product-overlay">
+            <div class="product-actions">
+              <button aria-label="Add to Favorites" class="item">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#star"></use>
+                </svg>
+              </button>
+
+              <button aria-label="Leave a feedback" class="item">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#edit"></use>
+                </svg>
+              </button>
+
+              <button aria-label="Add to Bookmarks" class="item">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#home"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-meta">
+          <h2 class="product-name">Red Apples</h2>
+          <p class="product-price">Price: 100 credits</p>
+        </div>
+      </article>
+    </main>
+    <script src="./scripts/fixed.js"></script>
+  </body>
+</html>
