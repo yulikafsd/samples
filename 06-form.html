@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Card Flip</title>
+    <title>Form</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -52,16 +52,40 @@
 
           <ul class="topic-options">
             <li>
-              <input type="checkbox" name="topic" value="html" id="html" />
-              <label for="html">HTML</label>
+              <label class="field">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="topic"
+                  value="html"
+                />
+                <span class="icon"></span>
+                <span class="label">HTML</span>
+              </label>
             </li>
             <li>
-              <input type="checkbox" name="topic" value="css" id="css" />
-              <label for="css">CSS</label>
+              <label class="field">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="topic"
+                  value="css"
+                />
+                <span class="icon"></span>
+                <span class="label">CSS</span>
+              </label>
             </li>
             <li>
-              <input type="checkbox" name="topic" value="js" id="js" />
-              <label for="js">JavaScript</label>
+              <label class="field">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="topic"
+                  value="js"
+                />
+                <span class="icon"></span>
+                <span class="label">JavaScript</span>
+              </label>
             </li>
           </ul>
         </div>
@@ -123,7 +147,7 @@
 
         <div class="form-field">
           <input type="checkbox" name="policy" id="policy" />
-          <label for="policy">Agree to all</label>
+          <label for="policy" class="policy">Agree to all</label>
         </div>
 
         <button type="submit">Submit request</button>
